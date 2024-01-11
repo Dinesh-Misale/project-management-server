@@ -1,0 +1,106 @@
+{
+  "org_list": [
+    {
+      "org_name": "testOrg1",
+      "org_id": "49a5c701-396e-4d49-9be0-d4e7022428b8"
+    },
+    {
+      "org_name": "org2",
+      "org_id": "49a5c701-396e-4d49-9be0-d4e7022desdfse3"
+    },
+    {
+      "org_name": "value",
+      "org_id": "49a5c701-396e-4d49-9be0-d4e7022dd428b8"
+    }
+  ],
+  "employees": [
+    {
+      "email": "testUser@protask.com",
+      "password": "password",
+      "org_id": "49a5c701-396e-4d49-9be0-d4e7022429b8",
+      "accountType": "admin",
+      "user_name": "admin_2",
+      "emp_id": "d6fec2ed-d1eb-4785-98f3-e81f0b94a73e"
+    },
+    {
+      "email": "admin@123",
+      "password": "123",
+      "user_name": "admin_1",
+      "org_id": "49a5c701-396e-4d49-9be0-d4e7022dd428b8",
+      "accountType": "admin",
+      "emp_id": "d6fec2ed-d1eb-4785-98f3-e81f0b94a74e"
+    },
+    {
+      "email": "test@123",
+      "password": "123",
+      "user_name": "Test Employee",
+      "org_id": "49a5c701-396e-4d49-9be0-d4e7022dd428b8",
+      "emp_id": "d6fec2ed-d1eb-4785-98f3-e81f0b94a75e"
+    }
+  ],
+  "tasks": [
+    {
+      "ticket_number": 1,
+      "priority": "high",
+      "ticket_type": "story",
+      "assignee": "d6fec2ed-d1eb-4785-98f3-e81f0b94a75e",
+      "reporting_to": "d6fec2ed-d1eb-4785-98f3-e81f0b94a74e",
+      "reporting_user_name": "admin_1",
+      "parent_link": "",
+      "story_point": 2,
+      "Comments": [
+        {
+          "message": "create UI for user profile",
+          "from": ["admin_1", "d6fec2ed-d1eb-4785-98f3-e81f0b94a74e"],
+          "time": ""
+        }
+      ],
+      "description": "UI profile page re-vamp",
+      "org_id": "49a5c701-396e-4d49-9be0-d4e7022dd428b8"
+    },
+    {
+      "ticket_number": 2,
+      "priority": "critical",
+      "ticket_type": "bug",
+      "assignee": "d6fec2ed-d1eb-4785-98f3-e81f0b94a75e",
+      "reporting_to": "d6fec2ed-d1eb-4785-98f3-e81f0b94a74e",
+      "reporting_user_name": "admin_1",
+      "parent_link": "",
+      "story_point": 1,
+      "Comments": [],
+      "description": "UI: Bug fix for download report",
+      "org_id": "49a5c701-396e-4d49-9be0-d4e7022dd428b8"
+    },
+    {
+      "ticket_number": 3,
+      "priority": "high",
+      "assignee": "d6fec2ed-d1eb-4785-98f3-e81f0b94a75e",
+      "reporting_to": "d6fec2ed-d1eb-4785-98f3-e81f0b94a74e",
+      "reporting_user_name": "admin_1",
+      "parent_link": "",
+      "story_point": 2,
+      "Comments": [
+        {
+          "message": "The back end is not ready yet please make the changes on UI side we will inform you once the backend changes are available.",
+          "from": ["admin_1", "d6fec2ed-d1eb-4785-98f3-e81f0b94a74e"],
+          "time": ""
+        }
+      ],
+      "description": "Complete the Integration",
+      "org_id": "49a5c701-396e-4d49-9be0-d4e7022dd428b8"
+    },
+    {
+      "ticket_number": 4,
+      "priority": "high",
+      "assignee": "d6fec2ed-d1eb-4785-98f3-e81f0b94a75e",
+      "reporting_to": "d6fec2ed-d1eb-4785-98f3-e81f0b94a74e",
+      "reporting_user_name": "admin_1",
+      "parent_link": "",
+      "story_point": 2,
+      "Comments": [],
+      "description": "Write e2e test for profile page using playwright",
+      "org_id": "49a5c701-396e-4d49-9be0-d4e7022dd428b8"
+    }
+  ],
+  "project": []
+}
